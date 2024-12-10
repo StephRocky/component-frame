@@ -1,0 +1,400 @@
+{
+  "data": {
+    "PageCompose": {
+      "busiIdPageRelId": 99999999998,
+      "pageUnitId": "85399999999998",
+      "pageUnitName": "企业宽带-商务版",
+      "pageId": 99999999997,
+      "pageName": "企业宽带-商务版",
+      "businessCode": "QykdSuperValueCreate",
+      "busiId": 99999999999,
+      "businessName": "业务订购",
+      "state": 1,
+      "busiPage": "MODEL_04",
+      "offerId": 211255505102,
+      "busiPageFileName": "CommonModel.Vue",
+      "busiPageRoute": "common/page/model/commonmodel",
+      "offerIconPath": "/icon/swkx_zq.png",
+      "offerDescription": "企业宽带是中国移动为响应国家“提速降费”要求降低中小企业成本支出，助力中小企业发展，针对中小微企业推出的新产品。快速接入，简单易用，企业投入少，宽带好处多。",
+      "fontSize": null,
+      "prodComponentList": [
+        {
+          "prodId": null,
+          "prodName": null,
+          "prodType": null,
+          "contComponentList": [
+            {
+              "eleId": "1",
+              "eleName": "header",
+              "eleType": "container",
+              "label": "选择资费",
+              "config": {
+                "level": 1
+              }
+            },
+            {
+              "eleId": "1",
+              "eleName": "header",
+              "eleType": "container",
+              "label": "企业宽带-商务版灵活月租资费套餐[可选]",
+              "config": {
+                "level": 2
+              }
+            },
+            {
+              "eleId": "2",
+              "eleName": "form",
+              "eleType": "container",
+              "eleKey": "form2",
+              "eleValue": "{}",
+              "config": {
+                "col": 2
+              },
+              "children": [
+                {
+                  "eleId": "21",
+                  "eleName": "select",
+                  "eleType": "base",
+                  "eleKey": "select21",
+                  "eleValue": "P_20MBroadbandPkg",
+                  "eleEvent": ["change"],
+                  "label": "选择类型",
+                  "classId": "2",
+                  "className": "form",
+                  "config": {
+                    "c_required": 1,
+                    "c_visible": 1,
+                    "b_placeholder": "请选择",
+                    "b_readonly": 0,
+                    "b_option": [
+                      {
+                        "key": "P_20MBroadbandPkg",
+                        "value": "20M超值版企业宽带灵活月租",
+                        "valueDesc": null
+                      },
+                      {
+                        "key": "P_50MBroadbandPkg",
+                        "value": "50M超值版企业宽带灵活月租",
+                        "valueDesc": null
+                      },
+                      {
+                        "key": "P_100MBroadbandPkg",
+                        "value": "100M商务版企业宽带灵活月租",
+                        "valueDesc": null
+                      },
+                      {
+                        "key": "P_200MBroadbandPkg",
+                        "value": "200M商务版企业宽带灵活月租",
+                        "valueDesc": null
+                      },
+                      {
+                        "key": "P_500MBroadbandPkg",
+                        "value": "500M商务版企业宽带灵活月租",
+                        "valueDesc": null
+                      }
+                    ]
+                  }
+                },
+                {
+                  "eleId": "22",
+                  "eleName": "input",
+                  "eleType": "base",
+                  "eleKey": "input22",
+                  "eleValue": "",
+                  "eleEvent": [],
+                  "label": "灵活月租费用",
+                  "classId": "2",
+                  "className": "form",
+                  "config": {
+                    "c_required": 1,
+                    "c_visible": 1,
+                    "c_remark": "必填，单位：元，最低0元，最高限价100000",
+                    "b_readonly": 0,
+                    "b_placeholder": "请输入电话号码"
+                  }
+                }
+              ]
+            },
+            {
+              "eleId": "3",
+              "eleName": "header",
+              "eleType": "container",
+              "label": "首月免月租",
+              "config": {
+                "level": 2
+              }
+            },
+            {
+              "eleId": "4",
+              "eleName": "form",
+              "eleType": "container",
+              "eleKey": "form4",
+              "eleValue": "{}",
+              "config": {
+                "col": 1
+              },
+              "children": [
+                {
+                  "eleId": "41",
+                  "eleName": "segment",
+                  "eleType": "base",
+                  "eleKey": "segment41",
+                  "eleValue": "P_FistMonthRentalFreePkg",
+                  "eleEvent": [],
+                  "label": "",
+                  "classId": "4",
+                  "className": "form",
+                  "config": {
+                    "c_required": 1,
+                    "c_visible": 1,
+                    "b_readonly": 0,
+                    "b_option": [
+                      {
+                        "key": "P_FistMonthRentalFreePkg",
+                        "value": "企业宽带首月月租费用优惠",
+                        "valueDesc": null
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "eleId": "5",
+              "eleName": "header",
+              "eleType": "container",
+              "label": "一次性费用(安装调试费)[可选]",
+              "config": {
+                "level": 2
+              }
+            },
+            {
+              "eleId": "6",
+              "eleName": "form",
+              "eleType": "container",
+              "eleKey": "form6",
+              "eleValue": "{}",
+              "config": {
+                "col": 1
+              },
+              "children": [
+                {
+                  "eleId": "61",
+                  "eleName": "segment",
+                  "eleType": "base",
+                  "eleKey": "segment61",
+                  "eleValue": "P_BusiBuildingInstall300Pkg",
+                  "eleEvent": ["change"],
+                  "label": "",
+                  "className": "form",
+                  "classId": "6",
+                  "config": {
+                    "c_required": 1,
+                    "c_visible": 1,
+                    "b_readonly": 0,
+                    "b_option": [
+                      {
+                        "key": "P_BusiBuildingInstall300Pkg",
+                        "value": "商务楼宇安装调测费300元",
+                        "valueDesc": null
+                      },
+                      {
+                        "key": "P_BusiBuildingInstall500Pkg",
+                        "value": "商务楼宇安装调测费500元",
+                        "valueDesc": null
+                      },
+                      {
+                        "key": "P_BusiBuildingInstall800Pkg",
+                        "value": "商务楼宇安装调测费800元",
+                        "valueDesc": null
+                      },
+                      {
+                        "key": "P_BusiBuildingInstall1000Pkg",
+                        "value": "商务楼宇安装调测费1000元",
+                        "valueDesc": null
+                      },
+                      {
+                        "key": "P_BroadbandOneChargePkg",
+                        "value": "企业宽带一次性费用",
+                        "valueDesc": null
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "eleId": "5",
+              "eleName": "header",
+              "eleType": "container",
+              "label": "订购信息",
+              "config": {
+                "level": 2
+              }
+            },
+            {
+              "eleId": "1",
+              "eleName": "form",
+              "eleType": "container",
+              "config": {
+                "col": 2
+              },
+              "children": [
+                {
+                  "eleId": "11",
+                  "eleName": "input",
+                  "eleType": "base",
+                  "eleKey": "input11",
+                  "eleValue": "企业宽带-商务版97110605315",
+                  "eleEvent": [],
+                  "label": "商品名称",
+                  "classId": "1",
+                  "className": "form",
+                  "config": {
+                    "c_required": 1,
+                    "c_visible": 1,
+                    "b_readonly": 0,
+                    "b_placeholder": "请输入商品名称"
+                  }
+                },
+                {
+                  "eleId": "12",
+                  "eleName": "input",
+                  "eleType": "base",
+                  "eleKey": "input12",
+                  "eleValue": "20M@13 20M@10",
+                  "eleEvent": [],
+                  "label": "专线带宽",
+                  "classId": "1",
+                  "className": "form",
+                  "config": {
+                    "c_required": 1,
+                    "c_visible": 1,
+                    "b_readonly": 0,
+                    "b_placeholder": "请输入专线带宽"
+                  }
+                },
+                {
+                  "eleId": "13",
+                  "eleName": "input",
+                  "eleType": "base",
+                  "eleKey": "input13",
+                  "eleValue": "",
+                  "eleEvent": [],
+                  "label": "业务安装联系人",
+                  "classId": "1",
+                  "className": "form",
+                  "config": {
+                    "c_required": 1,
+                    "c_visible": 1,
+                    "b_readonly": 0,
+                    "b_placeholder": "请填写业务安装联系人"
+                  }
+                },
+                {
+                  "eleId": "14",
+                  "eleName": "input",
+                  "eleType": "base",
+                  "eleKey": "input14",
+                  "eleValue": "",
+                  "eleEvent": [],
+                  "label": "联系人电话",
+                  "classId": "1",
+                  "className": "form",
+                  "config": {
+                    "c_required": 1,
+                    "c_visible": 1,
+                    "c_remark": "注意：只有广西移动号码才可以接收提醒短信",
+                    "b_readonly": 0,
+                    "b_placeholder": "请填写联系人电话"
+                  }
+                },
+                {
+                  "eleId": "15",
+                  "eleName": "input",
+                  "eleType": "base",
+                  "eleKey": "input15",
+                  "eleValue": "",
+                  "eleEvent": [],
+                  "label": "标准安装地址",
+                  "classId": "1",
+                  "className": "form",
+                  "config": {
+                    "c_required": 1,
+                    "c_visible": 1,
+                    "b_readonly": 1
+                  }
+                },
+                {
+                  "eleId": "16",
+                  "eleName": "input",
+                  "eleType": "base",
+                  "eleKey": "input16",
+                  "eleValue": "",
+                  "eleEvent": [],
+                  "label": "详细地址",
+                  "classId": "1",
+                  "className": "form",
+                  "config": {
+                    "c_required": 1,
+                    "c_visible": 1,
+                    "b_readonly": 1
+                  }
+                }
+              ]
+            },
+            {
+              "eleId": "1",
+              "eleName": "table",
+              "eleType": "container",
+              "eleKey": "table1",
+              "eleValue": "[]",
+              "config": {},
+              "children": [
+                {
+                  "eleId": "11",
+                  "eleName": "input",
+                  "eleType": "base",
+                  "eleKey": "input11",
+                  "eleValue": "企业宽带-商务版97110605315",
+                  "eleEvent": [],
+                  "label": "商品名称",
+                  "classId": "1",
+                  "className": "table",
+                  "config": {
+                    "c_required": 1,
+                    "c_visible": 1,
+                    "b_readonly": 0,
+                    "b_placeholder": "请输入商品名称"
+                  }
+                },
+                {
+                  "eleId": "12",
+                  "eleName": "input",
+                  "eleType": "base",
+                  "eleKey": "input12",
+                  "eleValue": "20M@13 20M@10",
+                  "eleEvent": [],
+                  "label": "专线带宽",
+                  "classId": "1",
+                  "className": "table",
+                  "config": {
+                    "c_required": 1,
+                    "c_visible": 1,
+                    "b_readonly": 0,
+                    "b_placeholder": "请输入专线带宽"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "busiOperType": "CREATE",
+      "groupInfo": null
+    }
+  },
+  "code": "0",
+  "message": "OK",
+  "total": 1
+}
